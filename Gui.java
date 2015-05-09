@@ -1,8 +1,8 @@
 /*
 * @Author: Eric Phung
 * @Date:   2015-03-31 23:49:37
-* @Last Modified by:   Eric Phung
-* @Last Modified time: 2015-04-02 21:57:02
+* @Last Modified by:   home
+* @Last Modified time: 2015-04-09 14:45:55
 */
 import java.awt.*;
 import javax.swing.*;
@@ -46,7 +46,7 @@ public class Gui extends JFrame implements ActionListener{
 		labelOutputObject.setOpaque(true);
 		labelOutputObject.setBackground(Color.GRAY);
 		labelOutputObject.setHorizontalAlignment(JLabel.CENTER);
-		labelOutputObject.setFont(new Font("SansSerif", Font.BOLD, 40));
+		labelOutputObject.setFont(new Font("Monospace", Font.BOLD, 40));
 		pnlMain.add(pnlButtons, BorderLayout.SOUTH);
 
 		//set up buttons panel
@@ -83,7 +83,7 @@ public class Gui extends JFrame implements ActionListener{
 		labelOutputObject.setOpaque(true);
 		labelOutputObject.setBackground(Color.GRAY);
 		labelOutputObject.setHorizontalAlignment(JLabel.CENTER);
-		labelOutputObject.setFont(new Font("SansSerif", Font.BOLD, 40));
+		labelOutputObject.setFont(new Font("Monospace", Font.BOLD, 40));
 		pnlMain.add(pnlButtons, BorderLayout.SOUTH);
 
 		//set up buttons panel

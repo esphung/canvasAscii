@@ -1,8 +1,8 @@
 /*
 * @Author: Eric Phung
 * @Date:   2015-03-31 22:02:51
-* @Last Modified by:   Eric Phung
-* @Last Modified time: 2015-04-02 21:09:59
+* @Last Modified by:   home
+* @Last Modified time: 2015-04-09 14:49:41
 */
 import javax.swing.*; // JTextarea
 import java.io.*; // Serializable
@@ -91,7 +91,7 @@ public class Canvas extends JTextArea implements Serializable{
 		} // end for
 	} // end test fill
 
-
+/*
 	public static void main(String[] args) {
 		//Canvas canvasObject = new Canvas("UserCanvas.txt");
 		//canvasObject.fillPages(10); // fill pages test
@@ -106,5 +106,7 @@ public class Canvas extends JTextArea implements Serializable{
 
 		//canvasObject.displayMe(); // display current pages
 	} // end main
+*/
+
 
 } // end class definition
